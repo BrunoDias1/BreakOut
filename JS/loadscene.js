@@ -4,7 +4,7 @@ export default class LoadScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("Ball", "./Images/ballblue.png");
+        this.load.image("Ball", "./Images/ballBlue.png");
         this.load.image("BlueB", "./Images/blue.png");
         this.load.image("GreenB", "./Images/green.png");
         this.load.image("PurpleB", "./Images/purple.png");
